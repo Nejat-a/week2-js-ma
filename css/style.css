@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  columns: #333333;
+}
+
+.book-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid #cccccc;
+  padding: 15px;
+}
+
+.remove {
+  background-color: transparent;
+  padding: 10px;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #666666;
+  cursor: pointer;
+}
+
+.remove:hover {
+  transition: background-color 0s ease-in;
+  border: 2px solid rgb(168, 0, 0);
+}
+
+.card i {
+  color: rgb(168, 0, 0);
+  margin-left: 10px;
+}
+
+.warning {
+  margin: 100px auto;
+  padding: 50px;
+  background-color: orangered;
+  color: #ffffff;
+}
